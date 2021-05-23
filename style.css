@@ -595,3 +595,28 @@ footer{
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
 
+
+@media screen and (max-width: 425px){
+  div.container>aside.sidebar{
+    height: 1225px;
+  }
+}
+@media screen and (max-width: 411px){
+  div.container>aside.sidebar{
+    height: 860px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  div.container>aside.sidebar{
+    height: 1340px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  div.container>aside.sidebar{
+    height: 1500px;
+  }
+}
+
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="imagens/logo.png" />
+  <link REL="SHORTCUT ICON" HREF="imagens/logo.png">
+  <title>Portfólio</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>fechar</span>
+    </div>
+
+    <header id="home">
+      <div class="img-wrapper">
+        <img src="imagens/bg.jpg" alt="">
+      </div>
+      <div class="banner">
+        <h1>Web Developer & Front End Designer</h1>
+        <p>Elias Gabriel</p>
+        <button>Saiba mais</button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+          <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="https://www.facebook.com/eliasgabriel.dasilva/"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/EliasGabriel1"><i class="fab fa-github-alt"></i></a>
+        <a href="https://twitter.com/EliasGahh"><i class="fab fa-twitter"></i></a>
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Como primeira linguagem tive o Python, então existe razoavelmente um background na base de .py, com api,
+              webscraping e filtragem de dados. </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>HTML & CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>O simples e necessário HTML é sempre usual no dia a dia de um programador e sempre se há a deparação com
+              problemas, e muitas vezes conhecimento em bootstrap consegue suprir todo esses problemas, com isso sempre
+              procuro aprimorar meus estilos e com consequencias estudando UI e UX.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Programação Web</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Já fora feito projetos em php, .net e como próxima busca, node.js</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Conhecimento em jquery, typescript e um pouco de node.js
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-bootstrap"></i>
+            <h3>Boostrap</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Mesmo que muitos projetos foram feitos em css puro, conhecimentos em bootstrap é necessário,
+              principalmentee para software com necessidade de desing rápidos. </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Como necessidade de ter uma plataforma de hospedagem de código-fonte e arquivos com controle de versão,
+              sempre houve preferencia no github, por meio de conhecimentos de git.</p>
+          </div>
+        </div>
+        <div class="conhecimentos-img-wrapper">
+          <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+        </div>
+      </div>
+    </section>
+
+    <div class="sessao-projetos" id="projetos">
+      <!-- <section>
+        <div class="sessao-header">
+          <h1>Projetos</h1>
+        </div>
+        <div class="projetos">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+            </div>
+            <div class="card-info">
+              <h2>ToDo List</h2>
+              <h3>Javascript</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam
+                doloribus eos consequatur expedita architecto hic?</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+            </div>
+            <div class="card-info">
+              <h2>Maratona</h2>
+              <h3>HTML, CSS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero
+                voluptas
+                ipsam ullam consectetur ab facilis cumque.</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+            </div>
+            <div class="card-info">
+              <h2>Casa Bela</h2>
+              <h3>HTML</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi
+                placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="projetos">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+            </div>
+            <div class="card-info">
+              <h2>ToDo List</h2>
+              <h3>Javascript</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus vero maxime amet magnam
+                doloribus eos consequatur expedita architecto hic?</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+            </div>
+            <div class="card-info">
+              <h2>Maratona</h2>
+              <h3>HTML, CSS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vero aliquam? Pariatur libero
+                voluptas
+                ipsam ullam consectetur ab facilis cumque.</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+            </div>
+            <div class="card-info">
+              <h2>Casa Bela</h2>
+              <h3>HTML</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi
+                placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" id="nome">
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email">
+                <label for="email" class="field-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="sociais">
+        <div></div>
+        <div class="social-list">
+          <ul>
+            <li><a href="https://www.facebook.com/eliasgabriel.dasilva/"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/eliasgahh/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/EliasGahh"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <p>
+            Copyright &copy; 2021 Elias Gabriel da Silva | Estudante de Sistemas da Informação
+          </p>
+        </div>
+      </footer>
+      <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

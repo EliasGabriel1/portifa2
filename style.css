@@ -630,4 +630,9 @@ footer{
     height: 870px;
   }
 }
+@media screen and (max-height: 667px){
+  div.container>aside.sidebar{
+    height: 825px;
+  }
+}
 

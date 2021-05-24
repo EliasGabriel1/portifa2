@@ -668,22 +668,6 @@ footer{
   }
 }
 
-@media screen and (max-height: 812px){
-  div.container>aside.sidebar{
-    height: 1024px;
-  }
-}
-@media screen and (max-height: 736px){
-  div.container>aside.sidebar{
-    height: 850px;
-  }
-}
-
-@media screen and (max-height: 731px){
-  div.container>aside.sidebar{
-    height: 870px;
-  }
-}
 @media screen and (max-height: 685px){
   div.container>aside.sidebar{
     height: 710px;
@@ -714,8 +698,33 @@ footer{
     }
   }
 }
+
+@media screen and (max-height: 812px){
+  div.container>aside.sidebar{
+    height: 1024px;
+  }
+}
+@media screen and (max-height: 736px){
+  div.container>aside.sidebar{
+    height: 850px;
+  }
+}
+
+@media screen and (max-height: 731px){
+  div.container>aside.sidebar{
+    height: 870px;
+  }
+}
+
+@media screen and (max-height: 731px){
+  div.container>aside.sidebar{
+    height: 870px;
+  }
+}
+
 @media screen and (max-height: 725px){
   div.container>aside.sidebar{
     height: 700px;
   }
 }
+  

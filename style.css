@@ -714,3 +714,8 @@ footer{
     }
   }
 }
+@media screen and (max-height: 725px){
+  div.container>aside.sidebar{
+    height: 700px;
+  }
+}

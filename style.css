@@ -684,8 +684,33 @@ footer{
     height: 870px;
   }
 }
-@media screen and (max-height: 667px){
+@media screen and (max-height: 685px){
   div.container>aside.sidebar{
-    height: 825px;
+    height: 710px;
+  }
+  @media screen and (max-width: 2500px){
+    div.container>aside.sidebar{
+      height: 715px;;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    div.container>aside.sidebar{
+      height: 610px;
+    }
+  }
+  @media screen and (max-width: 425px){
+    div.container>aside.sidebar{
+      height: 670px;
+    }
+  }
+  @media screen and (max-width: 375px){
+    div.container>aside.sidebar{
+      height: 720px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    div.container>aside.sidebar{
+      height: 870px;
+    }
   }
 }

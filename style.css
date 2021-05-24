@@ -596,7 +596,6 @@ footer{
 }
 
 
-
 @media screen and (max-height: 812px){
   div.container>aside.sidebar{
     height: 1024px;
@@ -606,6 +605,49 @@ footer{
 @media screen and (max-width: 425px){
   div.container>aside.sidebar{
     height: 1225px;
+  }
+  section.sessao-conhecimentos{
+    height: 1000px;
+  }
+  div.HTML{
+    margin-top: 100px;
+  }
+  div.Programacao{
+    height: 281px;margin-left: 42px;
+  }
+  div.Programacao>div.conhecimento-text{
+    height: 300px;
+  }
+  div.Programacao>div.conhecimento-text>p{
+    height: 300px;
+    margin-left: 53px;
+  }
+  div.Bootstrap{
+    visibility: hidden;
+  }
+  div.conhecimentos>div.Git.conhecimento{
+    margin-top: 33px;
+  }
+  div.git>div.conhecimento-header>h3{
+    margin-top: 0;
+  }
+  div.conhecimentos>div.conhecimentos-img-wrapper>img{
+    width: 250px;
+    height: 200px;
+    margin-top: 80px;
+  }
+  section.sessao-contato{
+    width: 452px;
+  }
+  section.sessao-contato>div.contato-wrapper{
+    height: 485px;
+    width: 430px;
+  }
+  section.sessao-contato>div.contato-wrapper>div.contato-right{
+    width: 275px;
+  }
+  div.sociais,footer{
+    width: 452px;
   }
 }
 @media screen and (max-width: 411px){

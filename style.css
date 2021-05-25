@@ -85,7 +85,7 @@ html{
 }
 
 aside.sidebar>nav>ul.menu>li.menu-item:hover{
-  box-shadow: 0px 5px 0px #a044ff;
+  box-shadow: 0px 5px 2.5px #a044ff;
 }
 
 header {

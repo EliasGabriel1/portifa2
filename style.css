@@ -606,7 +606,6 @@ footer{
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
-
 @media screen and (max-height: 812px){
   div.container>aside.sidebar{
     height: 1024px;
@@ -697,15 +696,24 @@ footer{
     div.container>aside.sidebar{
       height: 670px;
     }
+    div.conhecimento-text>p{
+      visibility: hidden;
+    }
   }
   @media screen and (max-width: 375px){
     div.container>aside.sidebar{
       height: 720px;
     }
+    div.conhecimento-text>p{
+      visibility: hidden;
+    }
   }
   @media screen and (max-width: 320px){
     div.container>aside.sidebar{
       height: 870px;
+    }
+    div.conhecimento-text>p{
+      visibility: hidden;
     }
   }
 }
@@ -738,4 +746,3 @@ footer{
     height: 700px;
   }
 }
-
